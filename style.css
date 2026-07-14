@@ -16,6 +16,11 @@
     color: #252432;
 }
 
+.sub-text {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+
 .button {
     font-size: 16px;
     font-weight: bold;
@@ -59,4 +64,22 @@
 .main-text {
     font-size: 65px;
     font-weight: bold;
+}
+
+/* action  */
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 200px;
+}
+
+.action-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.action-img {
+    border-radius: 50px;
 }
