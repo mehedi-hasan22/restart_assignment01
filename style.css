@@ -83,3 +83,37 @@
 .action-img {
     border-radius: 50px;
 }
+
+/* Users */
+
+.users {
+    margin: 100px auto;
+    max-width: 1100px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.user-info h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.user h3 {
+    font-size: 60px;
+    margin: 0;
+    color: #4E47FF;
+}
+
+.user p {
+    color: #666;
+    font-size: 16px;
+}
